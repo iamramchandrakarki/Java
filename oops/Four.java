@@ -6,7 +6,11 @@ class Book {
     }
 
     void display(){
-        System.out.println("Book has "+ pageNum + " page");
+        if(pageNum > 0){
+            System.out.println("Book has "+ pageNum + " page");
+        }else{
+            System.out.println("Kindly Enter greater than 0 value.");
+        }
     }
 }
 public class Four{
