@@ -4,6 +4,10 @@ class Student {
     String city;
 
     static int count;
+    
+    {
+        count++;
+    }
 
     Student() {
         System.out.println("Zero param constructor");
@@ -13,7 +17,6 @@ class Student {
         this.id = id;
         this.name = name;
         this.city = city;
-        count++;
     }
 
 
