@@ -20,5 +20,7 @@ class Alien {
 public class StaticFour{
     public static void main(String[] args){
         Alien a1 = new Alien();
+        Alien a2 = new Alien();
+        Alien a3 = new Alien();
     }
 }
